@@ -368,6 +368,6 @@ Follow idiomatic Go practices and community standards when writing Go code. Thes
 - Not understanding nil interfaces vs nil pointers
 - Forgetting to close resources (files, connections)
 - Using global variables unnecessarily
-- Over-using unconstrained types (e.g., `any`); prefer specific types or generic type parameters with constraints. If an unconstrained type is required, use `any` rather than `interface{}`
+- Overusing unconstrained types (e.g., `any`); prefer specific types or generic type parameters with constraints. If an unconstrained type is required, use `any` rather than `interface{}`
 - Not considering the zero value of types
 - **Creating duplicate `package` declarations** - this is a compile error; always check existing files before adding package declarations
